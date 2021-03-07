@@ -7,11 +7,9 @@ namespace CodingProblems
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(AddStrings.AddTwoStrings("1", "1"));
 
-            var result = TwoSumProblem.GetTwoSumProblemResult(new int[] { 5, 6, 2, 3, 8, 9 }, 11);
-
-            foreach (var i in result)
-                Console.WriteLine(i);
+           
         }
     }
 }
