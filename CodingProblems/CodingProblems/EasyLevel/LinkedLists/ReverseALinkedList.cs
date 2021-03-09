@@ -2,6 +2,7 @@
  * Given the head of a linked list, reverse the linked list
  */
 
+using CodingProblems.EasyLevel.LinkedLists;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -33,19 +34,6 @@ namespace CodingProblems.EasyLevel.Arrays
             //because this would now contain the last element
             //while current would be null
             return prev;
-        }
-    }
-
-
-    //definition of the linked list
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-        public ListNode(int val = 0, ListNode next=null)
-        {
-            this.val = val;
-            this.next = next;
         }
     }
 }

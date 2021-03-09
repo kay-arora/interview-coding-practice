@@ -1,5 +1,7 @@
 ﻿using System;
+using CodingProblems.EasyLevel.Arithmetic;
 using CodingProblems.EasyLevel.Arrays;
+using CodingProblems.EasyLevel.LinkedLists;
 
 namespace CodingProblems
 {
@@ -7,7 +9,22 @@ namespace CodingProblems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(AddStrings.AddTwoStrings("1", "1"));
+            ListNode linkedTest = new ListNode()
+            {
+                val = 1,
+                next = new ListNode()
+                {
+                    val = 0,
+                    next = new ListNode()
+                    {
+                        val = 1,
+                        next = null
+                    }
+                }
+            };
+
+
+            Console.WriteLine(PallindromeLinkedList.IsPallindrome(linkedTest));
 
            
         }
