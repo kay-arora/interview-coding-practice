@@ -2,6 +2,7 @@
 using CodingProblems.EasyLevel.Arithmetic;
 using CodingProblems.EasyLevel.Arrays;
 using CodingProblems.EasyLevel.LinkedLists;
+using CodingProblems.EasyLevel.Trees;
 using CodingProblems.General_Concepts.Trees;
 
 namespace CodingProblems
@@ -10,8 +11,7 @@ namespace CodingProblems
     {
         static void Main(string[] args)
         {
-            TreeTraversal.PostfixTraversal(SampleTree.CreateBinaryTree());
-           
+            Inversions.GetSubsequences(new int[] { 5,3,4,2,1}, 5);
         }
     }
 }
